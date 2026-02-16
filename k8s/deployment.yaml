@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: web
-        image: arifreza/web:latest
+        image: arifreza/web:3
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
